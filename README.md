@@ -1,5 +1,6 @@
 # cse210-student-template
 This is the starter code for students in CSE 210.
+
 Yours truly,
 Spencer Christiansen
 
