@@ -4,10 +4,11 @@ class Program
 {
     static void Main(string[] args)
     {
+        // Creates variables for each string that is changed by the if-statements.
         string letter;
         string preposition;
         string sign;
-        // This
+        // This is where the user inputs their letter percentage.
         Console.WriteLine("What's your letter percentage? ");
         float letterPercent = float.Parse(Console.ReadLine());
         // This if statement determines what letter is assigned to each grade
