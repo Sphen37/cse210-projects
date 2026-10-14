@@ -6,6 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        //Iterates through the option list until they decide to quit
         Journal _newJournal = new();
         int loop = 0;
         do
