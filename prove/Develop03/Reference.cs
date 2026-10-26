@@ -50,9 +50,9 @@ class Reference
         _book = Console.ReadLine();
         Console.Write("What chapter is it: ");
         _chapter = int.Parse(Console.ReadLine());
-        bool _multiple = true;
+        bool multiple = true;
         //Makes sure the user inputs either y for multiple verses or n for only one verse.
-        while (_multiple)
+        while (multiple)
         {
             Console.Write("Do you have multiple verses (y/n): ");
             string multipleVerses = Console.ReadLine();
@@ -63,7 +63,7 @@ class Reference
                 _firstVerse = int.Parse(Console.ReadLine());
                 Console.Write("What is the number for the last verse: ");
                 _lastVerse = int.Parse(Console.ReadLine());
-                _multiple = !_multiple;
+                multiple = !multiple;
             }
             else if (multipleVerses.ToLower() == "n")
             {
@@ -71,7 +71,7 @@ class Reference
                 Console.Write("What is the number to the verse: ");
                 _firstVerse = int.Parse(Console.ReadLine());
                 _lastVerse = 0;
-                _multiple= !_multiple;
+                multiple= !multiple;
             }
         }
     }
